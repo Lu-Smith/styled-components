@@ -4,7 +4,7 @@ import { StyledHeader } from "./styles/Header.styled";
 export default function Header() {
   return (
     <StyledHeader>
-      <h1>Palettes</h1>
+      <h1>Bubble</h1>
     </StyledHeader>
   );
 }
