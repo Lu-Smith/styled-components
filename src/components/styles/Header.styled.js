@@ -10,11 +10,25 @@ export const Nav = styled.nav`
   align-items: center;
   justify-content: space-between;
   margin-bottom: 40px;
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    flex-direction: column;
+  }
 `;
 
-export const Logo = styled.img``;
+export const Logo = styled.img`
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    margin-bottom: 40px;
+    padding-left: 65px;
+  }
+`;
 
 export const Image = styled.img`
   width: 375px;
   marign-left: 40px;
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    margin: 0 auto;
+    margin-top: 40px;
+  }
 `;
