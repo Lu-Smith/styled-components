@@ -10,7 +10,7 @@ export default function Header() {
       <Container>
         <Nav>
           <Logo src="./images/logo.png" alt="" />
-          <Button>Try It Free</Button>
+          <Button>Try It For Free</Button>
         </Nav>
         <Flex>
           <div>

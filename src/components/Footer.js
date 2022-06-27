@@ -28,6 +28,24 @@ export default function Footer() {
           <SocialIcons />
         </Flex>
         <p>&copy; 2021 Bubble. All rights reserved</p>
+        <p>
+          Coded by {""}
+          <a
+            href="https://www.lunasmithart.com/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Luna Smith
+          </a>
+          , open source on{" "}
+          <a
+            href="https://github.com/Lu-Smith/styled-components"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </p>
       </Container>
     </StyledFooter>
   );
