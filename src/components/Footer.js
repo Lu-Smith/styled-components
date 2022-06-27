@@ -12,7 +12,7 @@ export default function Footer() {
           <ul>
             <li>Contact us</li>
             <li>+1-543-123-4567</li>
-            <li>example@huddle.com</li>
+            <li>example@bubble.com</li>
           </ul>
           <ul>
             <li>About Us</li>
